@@ -1,0 +1,75 @@
+body{
+    
+    /*background-color: black;*/
+    background-image: url(../images/MetalBackground.jpg);
+    background-size: cover;
+    /*background-blend-mode: multiply;*/
+  }
+  .wrapper{
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .border{
+    width: 380px;
+    height: 380px;
+    background: linear-gradient(90deg, rgba(157,157,158,1) 0%, rgba(251,251,252,1) 35%, rgba(213,214,214,1) 100%);
+    border-radius: 50%;
+    position: relative;
+    z-index: -2;
+    box-shadow: 0px 0px 30px #444856;
+  }
+  .grayborder{
+    width: 340px;
+    height: 340px;
+    background: linear-gradient(90deg, rgba(201,198,199,1) 0%, rgba(251,243,243,1) 48%, rgba(156,147,149,1) 77%);
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: -2;
+  }
+  .black{
+    width: 290px;
+    height: 290px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 45px;
+    left: 45px;
+    z-index: -1;
+  }
+  .red{
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(244,187,28,1) 0%, rgba(226,28,39,1) 14%, rgba(56,5,13,1) 77%);
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    animation-name: haltalk;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+  }
+  h1{
+    font-size: 3em;
+    font-family: 'Gugi';
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    text-shadow: 5px 3px 5px #1E1F26;
+  }
+  @keyframes haltalk {
+    0% {background: radial-gradient(circle, rgba(244,187,28,1) 0%, rgba(226,28,39,1) 14%, rgba(56,5,13,1) 77%);}
+    30% {background: radial-gradient(circle, rgba(244,187,28,1) 0%, rgba(226,28,39,1) 40%, rgba(56,5,13,1) 78%);}
+    50% {background: radial-gradient(circle, rgba(244,187,28,1) 0%, rgba(226,28,39,1) 23%, rgba(56,5,13,1) 78%);}
+    75% {background: radial-gradient(circle, rgba(244,187,28,1) 0%, rgba(226,28,39,1) 29%, rgba(56,5,13,1) 61%);}
+    80% {background: radial-gradient(circle, rgba(244,187,28,1) 0%, rgba(226,28,39,1) 23%, rgba(56,5,13,1) 78%);}
+}
+  
+  
