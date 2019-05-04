@@ -71,8 +71,9 @@ body{
     75% {background: radial-gradient(circle, rgba(244,187,28,1) 0%, rgba(226,28,39,1) 29%, rgba(56,5,13,1) 61%);}
     80% {background: radial-gradient(circle, rgba(244,187,28,1) 0%, rgba(226,28,39,1) 23%, rgba(56,5,13,1) 78%);}
 }
-@media (max-width: 12450px) {
-  .wrapper{
-    width: 400px;
-}
+  @media (max-width: 12450px) {
+    .wrapper{
+      width: 400px;
+    }
+  }
   
